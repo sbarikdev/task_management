@@ -8,6 +8,7 @@ import CategoryModal from "../components/categories/CategoryModal";
 import useSuccessToast from "../hooks/useSuccessToast";
 import Header from "../components/ui/Header";
 
+
 export default function CategoryPage() {
   const showError = useErrorToast();
   const showSuccess = useSuccessToast();
